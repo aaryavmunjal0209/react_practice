@@ -1,13 +1,9 @@
-import React from "react";
-import FunctionalVsClass from "./01-functional-vs-class";
+import React from 'react';
+import Parent from './02-pure-components/Parent';
 
-function App() {
-  return (
-    <div style={{ padding: 20 }}>
-      <FunctionalVsClass />
-    </div>
-  );
-}
+const App = () => {
+  return <Parent />;
+};
 
 export default App;
 
