@@ -1,9 +1,12 @@
-import React from 'react';
-import Parent from './02-pure-components/Parent';
-
+import React from "react";
+import ReduxDemo from "./03-redux"; 
 const App = () => {
-  return <Parent />;
+  return (
+    <div>
+      <h1>Redux Counter Demo</h1>
+      <ReduxDemo />
+    </div>
+  );
 };
 
 export default App;
-
